@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C0B3016E309043BDA1B5B183 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94CD4E80466247BAACEE9811 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E08418F5BB984BC3B90C7AD4 /* CMake Rules */,
+			);
+			dependencies = (
+				2269CF6EBC7A4F1BBA58972A /* PBXTargetDependency */,
+				F998738201FF4A619E8E54AF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F923AE6C540341D0A5C5C929 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 14234921A26540FB97A9A873 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7F6D52B8CC654D89814473E1 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		189431936528436CADEFCC68 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.cpp */ = {isa = PBXBuildFile; fileRef = 36E4F2E0E6494D35927A2D4B /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.cpp */; };
+		CA70947BB59A4C3C82DEE963 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/osimDelayDLL.h */ = {isa = PBXBuildFile; fileRef = 01710784C30446C19DB56ABB /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/osimDelayDLL.h */; };
+		D7DFCEED99F74E78827F3D18 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.h */ = {isa = PBXBuildFile; fileRef = 5340C63CF9D54D79AA441AB6 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.h */; };
+		DD8F200F9CB345C986DD9014 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 49BFDCE8332D4ED4BCD23BE1 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0F066687C9B24842A90C8B98 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4D289763F5A4470FA1B6B02D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AD9990C83F894EA9B500E2D8 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F436A84D4E99434990BAB7E0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0462EAA98F474AE097FC62EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE04EA9211E49DB997C5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DDCA1465B44E0AB5EF27CF;
+			remoteInfo = Delay;
+		};
+		4FBA4100A6F844B9B790426C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE04EA9211E49DB997C5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F923AE6C540341D0A5C5C929;
+			remoteInfo = ZERO_CHECK;
+		};
+		571CEC7E392045E391B52422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE04EA9211E49DB997C5F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F923AE6C540341D0A5C5C929;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01710784C30446C19DB56ABB /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/osimDelayDLL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osimDelayDLL.h; path = osimDelayDLL.h; sourceTree = SOURCE_ROOT; };
+		0798DF5EB50B42F48BFAB4E3 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		36E4F2E0E6494D35927A2D4B /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Delay.cpp; path = Delay.cpp; sourceTree = SOURCE_ROOT; };
+		45CB0D80EE844C1EA8618696 /* Delay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Delay; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BFDCE8332D4ED4BCD23BE1 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5340C63CF9D54D79AA441AB6 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Delay.h; path = Delay.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3969BC3DF86E436F9BD1F3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EA5531F205441ABD31347E = {
+			isa = PBXGroup;
+			children = (
+				E265FA80EB80489CADC181B3 /* Delay */,
+				918989603D394B34897C026F /* ALL_BUILD */,
+				28E273DBF5F64B45961ADB16 /* Products */,
+				30CB9AA714C1454A95855E04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28E273DBF5F64B45961ADB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CB0D80EE844C1EA8618696 /* Delay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3302B4A359487D9CE4BE4A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5340C63CF9D54D79AA441AB6 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.h */,
+				01710784C30446C19DB56ABB /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/osimDelayDLL.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		30CB9AA714C1454A95855E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		918989603D394B34897C026F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F85D9281C8B84115A09A410A /* CMake Rules */,
+				0798DF5EB50B42F48BFAB4E3 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E265FA80EB80489CADC181B3 /* Delay */ = {
+			isa = PBXGroup;
+			children = (
+				FA983305529041D7AFB1F3A3 /* Source Files */,
+				2E3302B4A359487D9CE4BE4A /* Header Files */,
+				49BFDCE8332D4ED4BCD23BE1 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/CMakeLists.txt */,
+			);
+			name = Delay;
+			sourceTree = "<group>";
+		};
+		F85D9281C8B84115A09A410A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FA983305529041D7AFB1F3A3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E4F2E0E6494D35927A2D4B /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DDCA1465B44E0AB5EF27CF /* Delay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDA29776CCA42F69D333C4C /* Build configuration list for PBXNativeTarget "Delay" */;
+			buildPhases = (
+				CDA49B89F253492E926993E2 /* Sources */,
+				3969BC3DF86E436F9BD1F3BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525ABC805E6B4D3B919FE361 /* PBXTargetDependency */,
+			);
+			name = Delay;
+			productName = Delay;
+			productReference = 45CB0D80EE844C1EA8618696 /* Delay */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE04EA9211E49DB997C5F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 53C9692DEE5A4ECDA31A2432 /* Build configuration list for PBXProject "Delay" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AD9990C83F894EA9B500E2D8 /* Debug */,
+				4D289763F5A4470FA1B6B02D /* Release */,
+				F436A84D4E99434990BAB7E0 /* MinSizeRel */,
+				0F066687C9B24842A90C8B98 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 01EA5531F205441ABD31347E;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				C0B3016E309043BDA1B5B183 /* ALL_BUILD */,
+				89DDCA1465B44E0AB5EF27CF /* Delay */,
+				F923AE6C540341D0A5C5C929 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7F6D52B8CC654D89814473E1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build -f /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E08418F5BB984BC3B90C7AD4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build -f /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA49B89F253492E926993E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189431936528436CADEFCC68 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/Delay.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2269CF6EBC7A4F1BBA58972A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DDCA1465B44E0AB5EF27CF /* Delay */;
+			targetProxy = 0462EAA98F474AE097FC62EA /* PBXContainerItemProxy */;
+		};
+		525ABC805E6B4D3B919FE361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F923AE6C540341D0A5C5C929 /* ZERO_CHECK */;
+			targetProxy = 4FBA4100A6F844B9B790426C /* PBXContainerItemProxy */;
+		};
+		F998738201FF4A619E8E54AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F923AE6C540341D0A5C5C929 /* ZERO_CHECK */;
+			targetProxy = 571CEC7E392045E391B52422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06CAC96D03B748028B31FDF0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1307A1C023DF48C0939FC24E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Delay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22EA54A499AC413C95F8D8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build/build;
+			};
+			name = Debug;
+		};
+		2B5C59AFE31F48F49D01FA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		335F22AC08144A38A7E8F1C5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		34AAEA94D57847B8B1D7D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Delay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7999656E41F449BF921F6F0B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Delay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		83CFEA5A9C344BD5A9952341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		87B17AB7BE1F40FCB06D9436 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build/build;
+			};
+			name = MinSizeRel;
+		};
+		9C30BF17A40E49D0AFC7D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Delay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A1B2174A7FF9478EA7B57312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A57518F5972C437DB8E8F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build/build;
+			};
+			name = Release;
+		};
+		CA94240F648A4A47A31A11F5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E9A2A290924142288C09E1DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		EF9EE75FD59142B6A9CA9990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EFC4742A416A46A588484E18 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/DelayComponent/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14234921A26540FB97A9A873 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5C59AFE31F48F49D01FA1E /* Debug */,
+				A1B2174A7FF9478EA7B57312 /* Release */,
+				CA94240F648A4A47A31A11F5 /* MinSizeRel */,
+				EFC4742A416A46A588484E18 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53C9692DEE5A4ECDA31A2432 /* Build configuration list for PBXProject "Delay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EA54A499AC413C95F8D8DE /* Debug */,
+				A57518F5972C437DB8E8F54C /* Release */,
+				87B17AB7BE1F40FCB06D9436 /* MinSizeRel */,
+				E9A2A290924142288C09E1DE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94CD4E80466247BAACEE9811 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CFEA5A9C344BD5A9952341 /* Debug */,
+				EF9EE75FD59142B6A9CA9990 /* Release */,
+				335F22AC08144A38A7E8F1C5 /* MinSizeRel */,
+				06CAC96D03B748028B31FDF0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDDA29776CCA42F69D333C4C /* Build configuration list for PBXNativeTarget "Delay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AAEA94D57847B8B1D7D448 /* Debug */,
+				9C30BF17A40E49D0AFC7D40D /* Release */,
+				1307A1C023DF48C0939FC24E /* MinSizeRel */,
+				7999656E41F449BF921F6F0B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE04EA9211E49DB997C5F3A /* Project object */;
+}
