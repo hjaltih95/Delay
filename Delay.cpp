@@ -93,7 +93,7 @@ void Delay::constructProperties()
 void Delay::addToSystem(SimTK::MultibodySystem& system) const
 {
     Super::addToSystem(system);
-    Delay* mutableThis = const_cast<Delay *>(this);
+    Delay* mutableThis = const_cast<Delay*>(this);
     
 }
 
@@ -101,14 +101,7 @@ void Delay::addToSystem(SimTK::MultibodySystem& system) const
 void Delay::extendConnectToModel(Model &model)
 {
     Super::extendConnectToModel(model);
-    muscleHistory.setSize(0);
-    muscleHistory.setMemoryOwner(true);
     
-    const Muscle& musc = getMuscle();
-    
-    PiecewiseLinearFunction muscleSignal;
-    muscleSignal.setName(musc.getName());
-    muscleHistory.cloneAndAppend(muscleSignal);
     
 }
 
@@ -116,14 +109,31 @@ void Delay::extendConnectToModel(Model &model)
 // GET AND SET
 //=============================================================================
 
-//-----------------------------------------------------------------------------
-//
-//-----------------------------------------------------------------------------
 const Muscle& Delay::getMuscle() const
 {
     return getSocket<Muscle>("muscle").getConnectee();
 }
+//-----------------------------------------------------------------------------
+//
+//-----------------------------------------------------------------------------
 
+void Delay::setDelayValue(double delay)
+{
+    set_delay(delay);
+}
+double Delay::getDelayValue() const
+{
+    return get_delay();
+}
+
+void Delay::setDefaultSignal(double defaultControlsignal)
+{
+    set_defaultControlSignal(defaultControlsignal);
+}
+double Delay::getDefaultSignal() const
+{
+    return get_defaultControlSignal();
+}
 
 //=============================================================================
 // SIGNALS
@@ -144,20 +154,18 @@ double Delay::getSignal(const SimTK::State& s) const
     
     const Muscle& musc = getMuscle();
     
-    muscleHistory.get(musc.getName()).addPoint(time, signal);
+    muscleHistory.addPoint(time, signal);
     
-    if((time - get_delay()) < muscleHistory.get(musc.getName()).getXValues()[0])
+    if((time - get_delay()) < muscleHistory.getXValues()[0])
     {
         controlSignal = defaultSignal;
     }
     else
     {
-        controlSignal = muscleHistory.get(musc.getName()).calcValue(SimTK::Vector(1,time-get_delay()));
+        controlSignal = muscleHistory.calcValue(SimTK::Vector(1,time-get_delay()));
     }
     
     return controlSignal;
 }
 
 // time < tau return default control signal
-
-//  

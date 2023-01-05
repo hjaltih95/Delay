@@ -69,7 +69,7 @@ public:
 //==============================================================================
 // SOCKETS
 //==============================================================================
-    OpenSim_DECLARE_SOCKET(muscle, Muscle, "The muscle that has the spindle and golgi tendon");
+    OpenSim_DECLARE_SOCKET(muscle, Muscle, "The muscle that will have delayed muscle signals");
     
 //=============================================================================
 // OUTPUTS
@@ -86,9 +86,9 @@ public:
     /** Default constructor. */
     Delay();
     Delay(const std::string& name,
-                const Muscle& muscle,
-                double delay,
-                double defaultControlSignal);
+          const Muscle& muscle,
+          double delay,
+          double defaultControlSignal);
 
     // Uses default (compiler-generated) destructor, copy constructor and copy 
     // assignment operator.
@@ -99,9 +99,15 @@ public:
     
   // SOCKET get/set
     
-    // get a reference to the muscle the golgi tendon is attatched to
+    // A reference to the muscle that is having delayed muscle signals
     const Muscle& getMuscle() const;
+
+    void setDelayValue(double delay);
+    double getDelayValue() const;
     
+    void setDefaultSignal(double defaultControlSignal);
+    double getDefaultSignal() const;
+          
 
 //--------------------------------------------------------------------------
 // GOLGI TENDON STATE DEPENDENT ACCESSORS
@@ -110,6 +116,7 @@ public:
     Get quanitites of interest common to all spindles*/
     void setSignal(SimTK::State& s, double controlSignal) const;
     double getSignal(const SimTK::State& s) const;
+    
         
 
 private:
@@ -120,7 +127,7 @@ private:
     // ModelComponent interface to add computational elemetns to the SimTK system
     void addToSystem(SimTK::MultibodySystem& system) const;
     
-    mutable OpenSim::Set<PiecewiseLinearFunction> muscleHistory;
+    mutable PiecewiseLinearFunction muscleHistory;
 
     
 protected:
